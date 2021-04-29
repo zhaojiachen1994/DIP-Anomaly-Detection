@@ -5,15 +5,16 @@ submitted to IEEE Transactions on Cybernetics.
 ## Quick start
 Run the `main.py` in the `Evaulate` dictionary.
 
-We offer a demo to evaluate single DIP on **musk** dataset and evaluate
-ensemble DIP on **arrhythmia** dataset. The dataset information and other datasets used in the paper can be found
-[here](http://odds.cs.stonybrook.edu/)
+We offer a demo to evaluate single DIP on **musk** dataset and evaluate ensemble DIP on **arrhythmia** dataset.
 
 ## Experimental results
 
 DIP achieved better average results than a lot of existing traditional and deep methods. The evaluation metrics are AUC-ROC,
 AUC-PR, and F1 score. Here we only offer the F1 score performance. The other results can be found in the original paper.
+The dataset information and other datasets used in the paper can be found [here](http://odds.cs.stonybrook.edu/)
 
+
+### F1 score performance
 | F1 score | arrhythmia | ionosphere | lympho | mnist |  musk |  pima | satellite | satimage-2 | thyroid | vowels |  wbc  | Average |
 |:--------:|:----------:|:----------:|:------:|:-----:|:-----:|:-----:|:---------:|:----------:|:-------:|:------:|:-----:|:-------:|
 |   ABOD   |    0.400   |    0.842   |  0.565 | 0.307 | 0.024 | 0.517 |   0.374   |    0.172   |  0.050  |  0.558 | 0.354 |  0.378  |
