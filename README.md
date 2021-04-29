@@ -2,16 +2,17 @@
 This repository contains the code for paper "Density-increasing Neighbor Path for Unsupervised Anomaly Detection"
 submitted to IEEE Transactions on Cybernetics.
 
-## Usage
+## Quick start
+Run the `main.py` in the `Evaulate` dictionary.
 
-Run the `main.py` in the `Evaulate` dictionary. We offer a demo to evaluate single DIP on **musk** dataset and evaluate
+We offer a demo to evaluate single DIP on **musk** dataset and evaluate
 ensemble DIP on **arrhythmia** dataset. The dataset information and other datasets used in the paper can be found
 [here](http://odds.cs.stonybrook.edu/)
 
-## Results
+## Experimental results
 
 DIP achieved better average results than a lot of existing traditional and deep methods. The evaluation metrics are AUC-ROC,
-AUC-PR, and F1 score. The following results are from the paper.
+AUC-PR, and F1 score. Here we only offer the F1 score performance. The other results can be found in the original paper.
 
 | F1 score | arrhythmia | ionosphere | lympho | mnist |  musk |  pima | satellite | satimage-2 | thyroid | vowels |  wbc  | Average |
 |:--------:|:----------:|:----------:|:------:|:-----:|:-----:|:-----:|:---------:|:----------:|:-------:|:------:|:-----:|:-------:|
@@ -25,8 +26,9 @@ AUC-PR, and F1 score. The following results are from the paper.
 |    PCA   |    0.451   |    0.591   |  0.718 | 0.374 | 0.949 | 0.485 |   0.504   |    0.779   |  0.378  |  0.106 | 0.523 |  0.532  |
 |    SOD   |    0.379   |    0.785   |  0.507 | 0.232 | 0.094 | 0.445 |   0.458   |    0.293   |  0.180  |  0.368 | 0.466 |  0.382  |
 |    DAE   |    0.485   |    0.841   |  0.565 | 0.374 | 0.129 | 0.492 |   0.454   |    0.337   |  0.198  |  0.094 | 0.333 |  0.391  |
-|   DAGMM  |    0.084   |    0.287   |  0.095 | 0.047 |  0.01 | 0.357 |    0.08   |    0.428   |  0.086  |  0.01  | 0.656 |  0.194  |
+|   DAGMM  |    0.084   |    0.287   |  0.095 | 0.047 |  0.01 | 0.357 |   0.080   |    0.428   |  0.086  |  0.010 | 0.656 |  0.194  |
 |   DSVDD  |    0.327   |    0.595   |  0.463 | 0.232 | 0.387 | 0.333 |   0.493   |    0.125   |  0.154  |  0.037 | 0.571 |  0.337  |
 |  P2P-cos |    0.483   |    0.766   |  0.622 | 0.614 | 1.000 | 0.404 |   0.684   |    0.405   |  0.498  |  0.386 | 0.023 |  0.535  |
-|  P2P-euc |    0.484   |    0.677   |  0.752 | 0.363 | 1.000 | 0.526 |    0.47   |    0.938   |  0.269  |  0.436 | 0.531 |  0.586  |
+|  P2P-euc |    0.484   |    0.677   |  0.752 | 0.363 | 1.000 | 0.526 |   0.470   |    0.938   |  0.269  |  0.436 | 0.531 |  0.586  |
 |  P2P-man |    0.497   |    0.610   |  0.768 | 0.284 | 1.000 | 0.529 |   0.555   |    0.957   |  0.363  |  0.388 | 0.582 |  0.593  |
+
