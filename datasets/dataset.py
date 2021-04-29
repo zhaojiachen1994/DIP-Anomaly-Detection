@@ -3,7 +3,7 @@
 @author: Jiachen Zhao
 @time: 2020/2/1 20:29
 @desc: The DATASET class to process the dataset
-Datasets are downloaded from https://pyod.readthedocs.io/en/latest/benchmark.html
+Datasets are downloaded from http://odds.cs.stonybrook.edu/
 '''
 
 import numpy as np
