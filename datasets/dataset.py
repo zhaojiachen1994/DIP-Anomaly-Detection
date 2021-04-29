@@ -20,7 +20,8 @@ warnings.filterwarnings("ignore")
 
 class DATASET:
     def __init__(self, name, scalertype='StandarScaler', semirate=0.5, test_size=0.2):
-        self.filepath = os.path.join(os.path.dirname(os.getcwd()), 'datasets')
+        self.filepath = "/Users/zhaojiachen/PycharmProjects/P2P20210406/github/DIP-Anomaly-Detection/datasets/"
+        # self.filepath = os.path.join(os.path.dirname(os.getcwd()), 'datasets')
         self.name = name
         self.X = None
         self.y = None
