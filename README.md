@@ -7,7 +7,7 @@ Run the `main.py` in the `Evaulate` dictionary.
 We offer a demo to evaluate single DIP on **musk** dataset and evaluate ensemble DIP on **arrhythmia** dataset.
 
 ## Main idea of DIP
-<div align=center><img src ="https://github.com/zhaojiachen1994/DIP-Anomaly-Detection/blob/main/figures/DIPidea.jpg" width="700" height="450"/></div>
+<div align=center><img src ="https://github.com/zhaojiachen1994/DIP-Anomaly-Detection/blob/main/figures/DIPidea.jpg" width="700" height="500"/></div>
 
 ## Experimental results
 
