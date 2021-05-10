@@ -1,5 +1,5 @@
 # DIP: Density-increasing Neighbor Path for Unsupervised Anomaly Detection
-This repository contains the code for paper "Density-increasing Neighbor Path for Unsupervised Anomaly Detection"
+This repository contains the code for paper "Searching Density-increasing Path to Density Peaks for Unsupervised Anomaly Detection"
 submitted to IEEE Transactions on Cybernetics.
 
 ## Quick start
