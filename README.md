@@ -8,10 +8,10 @@ We offer a demo to evaluate single DIP on **musk** dataset and evaluate ensemble
 
 ## Main idea of DIP
 
-<div align=center><img src ="https://github.com/zhaojiachen1994/DIP-Anomaly-Detection/blob/main/figures/DIPidea.jpg" width="700" height="500"/></div>
+<div align=center><img src ="https://github.com/zhaojiachen1994/DIP-Anomaly-Detection/blob/main/figures/DIPidea.jpg" width="700" height="550"/></div>
 Idea of DIP. (A) plots the data points; (B) shows the anomaly scores by color; (C) and (D) show the paths of two normal point 12 and 29;
  (E) and (F) show the paths of two abnormal point 43 and 38; (G)-(I) show graphs learned by DIP and its variants. (Fig. 1 in the paper)
- 
+
 ## Experimental results
 
 DIP achieved better average results than a lot of existing traditional and deep methods. The evaluation metrics are AUC-ROC,
