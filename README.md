@@ -9,6 +9,7 @@ We offer a demo to evaluate single DIP on **musk** dataset and evaluate ensemble
 ## Main idea of DIP
 <div align=left><img src ="https://github.com/zhaojiachen1994/DIP-Anomaly-Detection/tree/main/figures/DIPidea.jpg" width="200" height="120"/></div>
 
+<div align=left><img src ="https://github.com/zhaojiachen1994/Frequently-used-code-blocks/blob/master/Figures/1d-gaussian-fit.png" width="300" height="150"/></div>
 ## Experimental results
 
 DIP achieved better average results than a lot of existing traditional and deep methods. The evaluation metrics are AUC-ROC,
