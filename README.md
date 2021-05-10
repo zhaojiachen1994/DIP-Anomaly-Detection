@@ -7,6 +7,8 @@ Run the `main.py` in the `Evaulate` dictionary.
 We offer a demo to evaluate single DIP on **musk** dataset and evaluate ensemble DIP on **arrhythmia** dataset.
 
 ## Main idea of DIP
+Idea of DIP. (A) plots the data points; (B) shows the anomaly scores by color; (C) and (D) show the paths of two normal point \textbf{12} and \textbf{29};
+ (E) and (F) show the paths of two abnormal point \textbf{43} and \textbf{38}; (G)-(I) show graphs learned by DIP and its variants.
 <div align=center><img src ="https://github.com/zhaojiachen1994/DIP-Anomaly-Detection/blob/main/figures/DIPidea.jpg" width="700" height="500"/></div>
 
 ## Experimental results
