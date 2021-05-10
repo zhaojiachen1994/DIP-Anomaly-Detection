@@ -47,7 +47,7 @@ if __name__ == "__main__":
     print("Evaluate Ensemble DIP on the arrhythmia dataset")
     ds = DATASET(name="arrhythmia", scalertype='MinMaxScaler', test_size=0.4)
     num_train = int(ds.numSample * 0.4)
-    tt = np.linspace(0.2, 0.6, 9)
+    tt = np.array([0.1, 0.2, 0.3])
     n_neigh_lists = (num_train * tt).astype(int)    # Compute the n_neigh_lists
     model = DIPModel(ModelName='DIP', n_neigh_list=n_neigh_lists, pathType='nearest',
                      distance="manhattan")
