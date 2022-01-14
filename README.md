@@ -14,8 +14,7 @@ Idea of DIP. (A) plots the data points; (B) shows the anomaly scores by color; (
 
 ## Experimental results
 
-DIP achieved better average results than a lot of existing traditional and deep methods. The evaluation metrics are AUC-ROC,
-AUC-PR, and F1 score. This repository only show the F1 score performance, while the other results can be found in the original paper.
+DIP achieved better average results than a lot of existing traditional and deep methods. The evaluation metrics is F1 score. This repository only show the F1 score performance, while the other results can be found in the original paper.
 The dataset information and other datasets used in the paper can be download from [here](http://odds.cs.stonybrook.edu/).
 
 
